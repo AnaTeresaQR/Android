@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#000">
+
+    <ImageView
+        android:src="@drawable/logo"
+        android:id="@+id/logo_text"
+        android:background="#C5CAE9"
+        android:paddingTop="1dp"
+        android:paddingBottom="1dp"
+        android:paddingLeft="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <ImageView
+        android:src="@drawable/info"
+        android:paddingTop="300dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aplicación "
+        android:id="@+id/titulo_textview"
+        android:textIsSelectable="false"
+        android:textSize="30sp"
+        android:textColor="#00C853"
+        android:paddingLeft="50dp"
+        android:paddingRight="2dp"
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/logo_text"
+        android:layout_alignLeft="@+id/btn_iniciar"
+        android:layout_alignStart="@+id/btn_iniciar" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:id="@+id/btn_iniciar"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido / CLICK ON ME"
+        android:background="#004D40"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="50dp"
+        android:textSize="16sp"
+        android:layout_below="@+id/titulo_textview"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
